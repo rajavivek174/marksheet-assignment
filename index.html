@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* . {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial", sans-serif;
+      } */
+
+      body {
+        background-color: #f7ebeb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200vh;
+      }
+
+      .container {
+        background-color: rgb(149, 158, 159);
+        width: 600px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      header h1 {
+        font-size: 28px;
+        color: #333;
+      }
+
+      header h2 {
+        font-size: 22px;
+        color: #666;
+      }
+
+      .student-info {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .info {
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+
+      .marksheet {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+
+      .marksheet th,
+      .marksheet td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+
+      .marksheet th {
+        background-color: #f2f2f2;
+        color: #7b7777;
+      }
+
+      .result {
+        text-align: right;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      footer p {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>BOARD OF INTRERMIDATE & SECONDRY EDUCATION MIRPURKHAS SINDH</h2>
+        <h1>MARKS CERTIFICATE</h1>
+        <h4>HSC-II ANNUAL EXAMINATION 2023</h4>
+        <h5>GOVT:(B)DEGREE COLLAGE MITHI THARPARKAR</h5>
+      </header>
+
+      <div class="student-info">
+        <img src="./rv.jpeg" alt="" width="100px" height="80px" />
+        <div class="info"><strong> Name:</strong> RAJA VIVEK</div>
+        <div class="info"><strong>F/Name:</strong> HOTCHAND</div>
+        <div class="info"><strong>Surname:</strong> BRAHMAN</div>
+        <div class="info"><strong>SEAT NUMBER:</strong> 47037</div>
+        <div class="info"><strong>Class:</strong> XIIth</div>
+        <div class="info"><strong>GROUP:</strong> PRE-MEDICAL</div>
+        <div class="info"><strong>Year:</strong> 2023</div>
+      </div>
+
+      <table class="marksheet">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Max Marks</th>
+            <th>XIth 0BT. MARKS</th>
+            <th>XIth (PR)</th>
+            <th>XIIth 0BT. Marks</th>
+            <th>XIIth(PR)</th>
+            <th>TOTAL OBT. Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>URDU(SALEES) /SINDHI</td>
+            <td>200</td>
+            <td>82</td>
+            <td>_</td>
+            <td>81</td>
+            <td>_</td>
+            <td>163</td>
+          </tr>
+          <tr>
+            <td>English I & II</td>
+            <td>200</td>
+            <td>60</td>
+            <td>_</td>
+            <td>68</td>
+            <td>_</td>
+            <td>128</td>
+          </tr>
+          <tr>
+            <td>ISLAMYAT / ETHICS</td>
+            <td>50</td>
+            <td>39</td>
+            <td>_</td>
+            <td>_</td>
+            <td>_</td>
+            <td>39</td>
+          </tr>
+          <tr>
+            <td>PAKISTAN SUTDIES</td>
+            <td>50</td>
+            <td>_</td>
+            <td>_</td>
+            <td>38</td>
+            <td>_</td>
+            <td>38</td>
+          </tr>
+          <tr>
+            <td>PHYSICS I & II</td>
+            <td>200</td>
+            <td>56</td>
+            <td>14</td>
+            <td>66</td>
+            <td>15</td>
+            <td>151</td>
+          </tr>
+          <tr>
+            <td>CHEMISTRY I & II</td>
+            <td>200</td>
+            <td>78</td>
+            <td>15</td>
+            <td>66</td>
+            <td>14</td>
+            <td>173</td>
+          </tr>
+          <tr>
+            <td>BIOLOGY I & II</td>
+            <td>200</td>
+            <td>72</td>
+            <td>14</td>
+            <td>67</td>
+            <td>14</td>
+            <td>167</td>
+          </tr>
+          <tr>
+            <td>TOTAL MARKS</td>
+            <td>1100</td>
+            <td>_</td>
+            <td>_</td>
+            <td>_</td>
+            <td>_</td>
+            <td>859</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="result">
+        <strong>GRADE:</strong>
+        <h1>"A"</h1>
+      </div>
+
+      <div class="result"><strong>Percentage:</strong> 78%</div>
+
+      <footer>
+        <p>Principal Signature: ________</p>
+        <p>Controller Signiture: ________</p>
+      </footer>
+    </div>
+  </body>
+</html>
